@@ -1,0 +1,70 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:DeleteItem",
+                "dynamodb:DescribeContributorInsights",
+                "dynamodb:RestoreTableToPointInTime",
+                "dynamodb:ListTagsOfResource",
+                "dynamodb:CreateTableReplica",
+                "dynamodb:UpdateContributorInsights",
+                "dynamodb:UpdateGlobalTable",
+                "dynamodb:CreateBackup",
+                "dynamodb:DeleteTable",
+                "dynamodb:UpdateTableReplicaAutoScaling",
+                "dynamodb:UpdateContinuousBackups",
+                "dynamodb:PartiQLSelect",
+                "dynamodb:DescribeTable",
+                "dynamodb:PartiQLInsert",
+                "dynamodb:GetItem",
+                "dynamodb:DescribeContinuousBackups",
+                "dynamodb:DescribeExport",
+                "dynamodb:CreateGlobalTable",
+                "dynamodb:DescribeKinesisStreamingDestination",
+                "dynamodb:EnableKinesisStreamingDestination",
+                "dynamodb:BatchGetItem",
+                "dynamodb:DisableKinesisStreamingDestination",
+                "dynamodb:UpdateTimeToLive",
+                "dynamodb:BatchWriteItem",
+                "dynamodb:ConditionCheckItem",
+                "dynamodb:PutItem",
+                "dynamodb:PartiQLUpdate",
+                "dynamodb:Scan",
+                "dynamodb:Query",
+                "dynamodb:DescribeStream",
+                "dynamodb:UpdateItem",
+                "dynamodb:DeleteTableReplica",
+                "dynamodb:DescribeTimeToLive",
+                "dynamodb:CreateTable",
+                "dynamodb:UpdateGlobalTableSettings",
+                "dynamodb:DescribeGlobalTableSettings",
+                "dynamodb:GetShardIterator",
+                "dynamodb:DescribeGlobalTable",
+                "dynamodb:RestoreTableFromBackup",
+                "dynamodb:ExportTableToPointInTime",
+                "dynamodb:DescribeBackup",
+                "dynamodb:DeleteBackup",
+                "dynamodb:UpdateTable",
+                "dynamodb:GetRecords",
+                "dynamodb:PartiQLDelete",
+                "dynamodb:DescribeTableReplicaAutoScaling"
+            ],
+            "Resource": "arn:aws:dynamodb:*"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": [
+                "dynamodb:DescribeReservedCapacityOfferings",
+                "dynamodb:DescribeReservedCapacity",
+                "dynamodb:PurchaseReservedCapacityOfferings",
+                "dynamodb:DescribeLimits",
+                "dynamodb:ListStreams"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
